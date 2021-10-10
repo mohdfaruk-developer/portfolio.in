@@ -752,14 +752,14 @@
        color: white;
        float: right;
        cursor: pointer;
-       margin: 20px 40px 0px 0px;
+       margin: 23px 30px 0px 0px;
    }
     
 
      /* for second section */
      #about{
         width: 425px;
-        height: 935px;
+        height: 1000px;
         background-color: whitesmoke;
         padding-top: 100px;
         text-align: center;
@@ -838,7 +838,7 @@
         font-size: 18px;
         text-align: left;
         text-align: justify;
-        margin: 20px 10px 0px 10px ;
+        margin: 20px 20px 0px 20px ;
         line-height: 30px;
         font-family: 'Koh Santepheap', cursive;
     }
@@ -970,7 +970,7 @@ body #expn{
       }
       .map1{
         width:80%;
-        margin-left: 8%;
+        margin-left: 4%;
         height: 250px;
         border: 2px solid gray;
       }
@@ -1017,7 +1017,7 @@ body #expn{
         width: 160px;
         height: 45px;
         font-size: 18px;
-        margin-top: -15px;
+        margin-top: -20px;
         text-decoration: none;
         background: linear-gradient(to right,#f32170,#dfcd0b,#2196f3);
         border-radius: 5px;
@@ -1042,21 +1042,24 @@ body #expn{
         background-color: rgb(29, 29, 214);
         color: white;
         transition: .4s;
-    
+        line-height: 37px;
     }
     .icon .fa-linkedin{
-        background-color: rgb(11, 11, 100);
+        background-color: rgb(23, 23, 161);
         color: white;
         transition: .4s;
+        line-height: 37px;
     }
     .icon .fa-twitter{
         background-color: rgb(44, 44, 170);
         color: white;
         transition: .4s;
+        line-height: 37px;
     }
     .icon .fa-instagram{
         background-color: rgb(233, 67, 17);
         color: white;
         transition: .4s;
+        line-height: 37px;
     }
 }
