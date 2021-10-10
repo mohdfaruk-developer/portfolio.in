@@ -1039,19 +1039,19 @@ body #expn{
     }
     
     .icon .fa-facebook{
-        background-color: rgb(29, 29, 214);
+        background-color: rgb(27, 27, 245);
         color: white;
         transition: .4s;
         line-height: 37px;
     }
     .icon .fa-linkedin{
-        background-color: rgb(23, 23, 161);
+        background-color: rgb(11, 11, 202);
         color: white;
         transition: .4s;
         line-height: 37px;
     }
     .icon .fa-twitter{
-        background-color: rgb(44, 44, 170);
+        background-color: rgb(100, 100, 240);
         color: white;
         transition: .4s;
         line-height: 37px;
