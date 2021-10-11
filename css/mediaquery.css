@@ -364,7 +364,7 @@
     }
     #menu .m1{
         margin: 0px;
-        margin-left: 15px;
+        margin-left: 5px;
     }
     .m1 a{
         font-size: 20px;
@@ -378,12 +378,13 @@
         float: right;
         display: block;
         word-spacing: -6px;
+        margin-right: 10px;
     }
     .m2 a{
         font-size: 20px;
         text-decoration: none;
         color:white;
-        padding: 12px;
+        padding: 12px 8px 12px 8px;
         line-height: 70px;
         letter-spacing: 3px;
     }
@@ -707,6 +708,7 @@
         background-image: linear-gradient(to left,#fc00ff,#00dbde);
         overflow: hidden;
     }
+
     .class
 {
     background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
@@ -744,8 +746,9 @@
         background-image: linear-gradient(to left,#fc00ff,#00dbde); 
         margin-top: 75px;
         border-top: 2px solid black;
-        width: 100%;
+        width: 425px;
         padding: 5px 0px 15px 0px;
+        box-shadow: 3px 0px 15px grey;
         display: none;
     }
     #phone a{
@@ -756,6 +759,10 @@
         font-size: 18px;
         color: white;
     }
+    #mode{
+        color: black;
+    }
+
     .menu_icon{
         display: inline;
         margin-top: 10px;
