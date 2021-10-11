@@ -12,3 +12,13 @@ function display(){
     }
 
 }
+
+var b=0;
+function mode(){
+    var about=document.getElementById("about");
+    var cont=document.getElementById("contact");
+    if(b%2==0)
+    {
+
+    }
+}

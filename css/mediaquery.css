@@ -12,6 +12,10 @@
         background-image: linear-gradient(to left,#fc00ff,#00dbde);
         overflow: hidden;
     }
+    #mode{
+        color: black;
+    }
+
     .class
 {
     background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
@@ -352,6 +356,9 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    }
+    #mode{
+        color: black;
     }
     body #menu{
         width: 768px;
@@ -759,10 +766,6 @@
         font-size: 18px;
         color: white;
     }
-    #mode{
-        color: black;
-    }
-
     .menu_icon{
         display: inline;
         margin-top: 10px;
