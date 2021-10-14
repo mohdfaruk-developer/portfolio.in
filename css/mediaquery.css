@@ -13,13 +13,6 @@
         overflow: hidden;
     }
 
-.class
-{
-    background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
     #menu .m1{
         margin: 0px;
         margin-left: 15px;
@@ -55,6 +48,13 @@
         color: black;
     }
 
+    .class
+{
+    background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
 
     #about{
         width: 1125px;
@@ -135,6 +135,23 @@
         margin: 40px 40px 0px 0px ;
         line-height: 30px;
         color: rgb(119, 119, 119);
+    }
+
+    .download{
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
+        text-decoration: none;
+        background: linear-gradient(to right,#f32170,#dfcd0b,#2196f3);
+        border-radius: 5px;
+        color:white;
+        float: right;
+        text-align: center;
+        line-height: 45px;
+    }
+    .download:hover{
+        transform: scale(1.2);
+        transition: .3s;
     }
     
     #academic{
@@ -293,22 +310,6 @@
     .email .fa{
         font-size: 30px;
     }
-    .download{
-        width: 160px;
-        height: 45px;
-        font-size: 18px;
-        text-decoration: none;
-        background: linear-gradient(to right,#f32170,#dfcd0b,#2196f3);
-        border-radius: 5px;
-        color:white;
-        float: right;
-        text-align: center;
-        line-height: 45px;
-    }
-    .download:hover{
-        transform: scale(1.2);
-        transition: .3s;
-    }
     
     .icon .fa{
         width: 60px;
@@ -342,13 +343,6 @@
 
 /* for 768px (tablet) */
 @media screen and (max-width:768px){
-    .class
-    {
-    background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    }
 
     body #menu{
         width: 768px;
@@ -395,6 +389,13 @@
         color: black;
     }
     
+    .class
+    {
+    background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    }
 
      /* for second section */
      #about{
@@ -480,6 +481,23 @@
         margin: 40px 10px 0px 60px ;
         line-height: 30px;
         color: rgb(119, 119, 119);
+    }
+
+    .download{
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
+        text-decoration: none;
+        background: linear-gradient(to right,#f32170,#dfcd0b,#2196f3);
+        border-radius: 5px;
+        color:white;
+        float: right;
+        text-align: center;
+        line-height: 45px;
+    }
+    .download:hover{
+        transform: scale(1.2);
+        transition: .3s;
     }
 
     /* for third section  */
@@ -640,22 +658,6 @@
     .email .fa{
         font-size: 25px;
     }
-    .download{
-        width: 160px;
-        height: 45px;
-        font-size: 18px;
-        text-decoration: none;
-        background: linear-gradient(to right,#f32170,#dfcd0b,#2196f3);
-        border-radius: 5px;
-        color:white;
-        float: right;
-        text-align: center;
-        line-height: 45px;
-    }
-    .download:hover{
-        transform: scale(1.2);
-        transition: .3s;
-    }
 
     .icon .fa{
         width: 35px;
@@ -702,13 +704,6 @@
         overflow: hidden;
     }
 
-    .class
-{
-    background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
     #menu .m1{
         margin-left: 10px;
     }
@@ -766,7 +761,15 @@
        margin: 23px 30px 0px 0px;
    }
     
+   .class
+   {
+       background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
+       color: transparent;
+       background-clip: text;
+       -webkit-background-clip: text;
+   }
 
+   
      /* for second section */
      #about{
         width: 425px;
@@ -849,6 +852,24 @@
         text-align: justify;
         margin: 20px 20px 0px 20px ;
         line-height: 30px;
+    }
+
+    .download{
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
+        margin-top: 4px;
+        text-decoration: none;
+        background: linear-gradient(to right,#f32170,#dfcd0b,#2196f3);
+        border-radius: 5px;
+        color:white;
+        float: right;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    .download:hover{
+        transform: scale(1);
     }
 
     /* for third section  */
@@ -1019,19 +1040,6 @@ body #expn{
     .email .fa{
         font-size: 25px;
     }
-    .download{
-        width: 160px;
-        height: 45px;
-        font-size: 18px;
-        margin-top: 4px;
-        text-decoration: none;
-        background: linear-gradient(to right,#f32170,#dfcd0b,#2196f3);
-        border-radius: 5px;
-        color:white;
-        float: right;
-        text-align: center;
-        line-height: 45px;
-    }
     
     .icon .fa{
         width: 35px;
@@ -1069,3 +1077,5 @@ body #expn{
         line-height: 37px;
     }
 }
+
+

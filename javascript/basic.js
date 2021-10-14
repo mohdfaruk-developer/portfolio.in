@@ -33,3 +33,23 @@ function mode(){
         b=b+1
     }
 }
+
+
+var c=0;
+function mode1(){
+    var pro=document.getElementById("bdy");
+    
+    
+    if(c%2==0){
+        pro.style.backgroundColor="rgb(59, 58, 58)"
+        for(var i=0; i<28; i++){
+            var pra=document.getElementsByClassName();
+        }
+        c=c+1;
+    }
+    else{
+        pro.style.backgroundColor=""
+        pra.style.color=""
+        c=c+1;
+    }
+}

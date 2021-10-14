@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="./image/teched-logo1.jpg" type="image/jpg">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+    <link rel="stylesheet" href="./css/pjt.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="menu">
+        <div class="m1">
+            <a href="./index.html"> Home</a>
+            <p class="menu_icon"><i class="fa fa-bars" aria-hidden="true" onclick="display()"></i></p>
+           <div class="m2">
+                <a  href="./index.html">Education</a>
+                <a  href="./index.html">Experience</a>
+                <a  href="./index.html">Skills</a>
+                <a  href="./project.html">Project</a>
+                <a  href="./index.html">Contact</a>
+                <a  id="mode" onclick="mode1()" >Dark</a>
+           </div>
+        </div>
+    </div>
+    <div id="phone">
+        <a href="./index.html">Education</a>
+        <a href="./index.html">Experience</a>
+        <a href="./index.html">Skills</a>
+        <a href="./project.html">Project</a>
+        <a href="./index.html">Contact</a>
+        <a id="mode" onclick="mode1()" >Change Mode</a> 
+    </div>
+    <div class="container-fluid" id="bdy">
+        <div id="pjt" class="row">
+            <div class="col-12">
+                <h1>Project</h1>
+            </div>
+            <div class="pjts col-md">
+                <p class="heahing">Titanic Model</p>
+                <p class="sub-heading">About</p>
+                <p class="pragraph">
+                    THe Sinking Of Titanic Is One Of The Most Infamous Shipwrecks In History On April 15 , 1912. The Titanic Sank After Colliding With An Iceberg . Main Aim In This Model Is To Predict The Survival Of Passengers.You Are Given A Training And Testing Data Set In Csv Format As Well As A Data Dictionary
+                </p>
+                <p class="sub-heading">Approach</p>
+                <p class="pragraph">
+                    Random Forest Classifier
+                </p>
+                <p class="sub-heading">Data Analysis</p>
+                <p class="pragraph">
+                    Import Essential Libraries Numpy, Pandas, Matplotlib. Pyplot, Seaborn
+                </p>
+                <p class="pragraph">
+                    Target Salesprice
+                </p>
+                <p class="pragraph">
+                    Identifying Null Values
+                </p>
+                <p class="pragraph">
+                    Dropping The Cabin Column Because It Has More Than 75% Of Missing Values
+                </p>
+                <p class="pragraph">
+                    Filling The Missing Values
+                </p>
+                <p class="pragraph">
+                    Performing Feature Engineering
+                </p>
+                <p class="pragraph">
+                    Converting The Categorical Type Of Data Into Dummy Variables
+                </p>
+                <p class="pragraph">
+                    Splitting The Test And Train Data
+                </p>
+                <p class="pragraph">
+                    Random Forest Gives An Accuracy Of 89%
+                </p>
+                <p class="pragraph">
+                    After Testing It Gives An Accuracy Of 85%
+                </p>
+            </div>
+            <div class="pjts col-md">
+                <p class="heahing" >House Price Prediction</p>
+                <p class="sub-heading">About</p>
+                <p class="pragraph">
+                    The Main Aim Is To Predict Sales Price For Homes. You Are Given A Training And Testing Data Set In Csv Format As Well As A Data Dictionary
+                </p>
+                <p class="sub-heading">Approach</p>
+                <p class="pragraph">
+                    Using Vector Machine.
+                </p>
+                <p class="sub-heading">Data Analysis</p>
+                <p class="pragrapg">
+                    Import Essential Libraries Numpy, Pandas, Matplotlib. Pyplot, Seaborn
+                </p>
+                <p class="pragrapg">
+                    Target Salesprice
+                </p>
+                <p class="pragrapg">
+                    Identifying Null Values
+                </p>
+                <p class="pragrapg">
+                    Dropping The Null Values Which Have Number More Than 20%
+                </p>
+                <p class="pragrapg">
+                    Filling The Missing Values
+                </p>
+                <p class="pragrapg">
+                    Selecting The Features Which Are Coorelated By More Than 50% To Salesprice.
+                </p>
+                <p class="pragrapg">
+                    Converting Object Type Of Data Into Numerical Form
+                </p>
+                <p class="pragrapg">
+                    After Seeing The Skewness Of Data, We Will Reduce It By Using Log Function
+                </p>
+                <p class="pragrapg">
+                    After Seeing The Skewness Of Data, We Will Reduce It By Using Log Function
+                </p>
+                <p class="pragrapg">
+                    Cross Validation
+                </p>
+                <p class="pragrapg">
+                    Support Vector Machine Gives An Accuracy Of 88.97%
+                </p>
+            </div>
+            <div class="pjts col-md">
+                <p class="heahing" >Breast Cancer Detection</p>
+                <p class="sub-heading">About</p>
+                <p class="pragraph">The Main Aim Is To Predict Diagnoses Of Cancer As Malignant (Cancerous) And Benign (Non-Cancerous). You Are Given A Training And Testing Data Set In Csv Format As Well As A Data Dictionary</p>
+                <p class="sub-heading">Approach</p>
+                <p class="pragraph">Using Different Models Like Random Forest, Logistic Regression, Decision Tree.</p>
+                <p class="sub-heading">Data Analysis</p>
+                <p class="pragraph">
+                    Import Essential Libraries Numpy, Pandas, Matplotlib. Pyplot, Seaborn
+                </p>
+                <p class="pragraph">
+                    Target Column Diagnoses
+                </p>
+                <p class="pragraph">
+                    Identifying Null Values
+                </p>
+                <p class="pragraph">
+                    Dropping The Column Unamed That Have All The Null Values
+                </p>
+                <p class="pragraph">
+                    Getting The Count Of Malignant And Benign Cells Using Countplot Filling
+                </p>
+                <p class="pragraph">
+                    Label Encoding(Converting The Value Of M And B Into 1 And 0)
+                </p>
+                <p class="pragraph">
+                    Checking The Coorelation Among The Columns Using Heatmap.
+                </p>
+                <p class="pragraph">
+                    Splitting The Test And Train Data
+                </p>
+                <p class="pragraph">
+                    Splitting The Test And Train Data
+                </p>
+                <p class="pragraph">
+                    Random Forest (Accuracy-99.7%), Logistic Regression (Accuracy- 99.12%, Decision Tree (Accuracy-100%) )
+                </p>
+                <p class="pragraph">
+                    After Testing Accuracy
+                </p>
+                <p class="pragraph">
+                    Random Forest Gives Max. Accuracy (Accuracy-97.3%)
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="link1">
+           <span class="number"><i class="fa fa-phone" aria-hidden="true"></i> +918439394860</span>
+        </div>
+        <div class="link2">
+            <span class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+            <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+            <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+            <span class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+        </div>
+        <div class="link3">
+            <span class="email"><i class="fa fa-envelope" aria-hidden="true"></i> shirazhussain789@gmail.com</span>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="./javascript/basic.js"></script>
