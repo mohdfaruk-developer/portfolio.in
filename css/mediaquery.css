@@ -12,11 +12,8 @@
         background-image: linear-gradient(to left,#fc00ff,#00dbde);
         overflow: hidden;
     }
-    #mode{
-        color: black;
-    }
 
-    .class
+.class
 {
     background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
     color: transparent;
@@ -54,6 +51,10 @@
         transition: .3s;
         color: white;
     }
+    #mode{
+        color: black;
+    }
+
 
     #about{
         width: 1125px;
@@ -117,11 +118,9 @@
     }
     .per_dlt{
         margin-top: 30px;
-        font-family: 'Koh Santepheap', cursive;
     }
     .post{
         margin-top: 10px;
-        font-family: 'Koh Santepheap', cursive;
     }
     
     .content{
@@ -135,7 +134,6 @@
         text-align: justify;
         margin: 40px 40px 0px 0px ;
         line-height: 30px;
-        font-family: 'Koh Santepheap', cursive;
         color: rgb(119, 119, 119);
     }
     
@@ -162,7 +160,6 @@
     }
     .dispt{
         font-size: 20px;
-        font-family: 'Koh Santepheap', cursive;
         color: rgb(88, 87, 87);
     }
     
@@ -175,7 +172,6 @@
     .expn_head{
         font-size: 40px;
         margin: 30px 0px 50px 0px;
-        font-family: 'Ephesis', cursive;
         text-align: center;
         color: white;
     }
@@ -322,28 +318,24 @@
         margin: 0px 10px 0px 10px;
         cursor: pointer;
         border-radius: 5px;
-        color: black;
+        color: white;
     }
     
     .icon .fa-facebook:hover{
         background-color: rgb(29, 29, 214);
-        color: white;
         transition: .4s;
     
     }
     .icon .fa-linkedin:hover{
         background-color: rgb(11, 11, 100);
-        color: white;
         transition: .4s;
     }
     .icon .fa-twitter:hover{
         background-color: rgb(44, 44, 170);
-        color: white;
         transition: .4s;
     }
     .icon .fa-instagram:hover{
         background-color: rgb(233, 67, 17);
-        color: white;
         transition: .4s;
     }
 }
@@ -357,9 +349,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     }
-    #mode{
-        color: black;
-    }
+    
     body #menu{
         width: 768px;
         height: 80px;
@@ -400,6 +390,9 @@
         cursor: pointer;
         transition: .3s;
         color: white;
+    }
+    #mode{
+        color: black;
     }
     
 
@@ -470,11 +463,9 @@
     }
     .per_dlt{
         margin-top: 20px;
-        font-family: 'Koh Santepheap', cursive;
     }
     .post{
         margin-top: 10px;
-        font-family: 'Koh Santepheap', cursive;
     }
     
     .content{
@@ -488,7 +479,6 @@
         text-align: justify;
         margin: 40px 10px 0px 60px ;
         line-height: 30px;
-        font-family: 'Koh Santepheap', cursive;
         color: rgb(119, 119, 119);
     }
 
@@ -516,7 +506,6 @@
     }
     .dispt{
         font-size: 20px;
-        font-family: 'Koh Santepheap', cursive;
         color:rgb(88, 87, 87);
     }
     
@@ -530,7 +519,6 @@
     .expn_head{
         font-size: 40px;
         margin: 30px 0px 50px 0px;
-        font-family: 'Ephesis', cursive;
         text-align: center;
         color: white;
     }
@@ -677,28 +665,24 @@
         margin: 0px 8px 0px 8px;
         cursor: pointer;
         border-radius: 5px;
-        color: black;
+        color: white;
     }
     
     .icon .fa-facebook:hover{
         background-color: rgb(29, 29, 214);
-        color: white;
         transition: .4s;
     
     }
     .icon .fa-linkedin:hover{
         background-color: rgb(11, 11, 100);
-        color: white;
         transition: .4s;
     }
     .icon .fa-twitter:hover{
         background-color: rgb(44, 44, 170);
-        color: white;
         transition: .4s;
     }
     .icon .fa-instagram:hover{
         background-color: rgb(233, 67, 17);
-        color: white;
         transition: .4s;
     }
 }
@@ -706,6 +690,8 @@
 
 /* for 425px (mobile) */
 @media screen and (max-width:425px){
+
+    
     body #menu{
         width:425px;
         height: 80px;
@@ -766,6 +752,7 @@
         font-size: 18px;
         color: white;
     }
+
     .menu_icon{
         display: inline;
         margin-top: 10px;
@@ -846,11 +833,9 @@
     }
     .per_dlt{
         margin-top: 15px;
-        font-family: 'Koh Santepheap', cursive;
     }
     .post{
         margin-top: 10px;
-        font-family: 'Koh Santepheap', cursive;
     }
     
     .content{
@@ -864,7 +849,6 @@
         text-align: justify;
         margin: 20px 20px 0px 20px ;
         line-height: 30px;
-        font-family: 'Koh Santepheap', cursive;
     }
 
     /* for third section  */
@@ -891,7 +875,6 @@
     }
     .dispt{
         font-size: 20px;
-        font-family: 'Koh Santepheap', cursive;
         color: rgb(88, 87, 87);
     }
     
@@ -905,7 +888,6 @@ body #expn{
 .expn_head{
     font-size: 40px;
     margin: 30px 0px 30px 0px;
-    font-family: 'Ephesis', cursive;
     text-align: center;
     color: rgb(100, 96, 96);
 }

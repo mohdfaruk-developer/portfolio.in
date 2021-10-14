@@ -8,14 +8,10 @@ html{
 }
 .class
 {
-    background: linear-gradient(to right,#f32170,#e7d50f,#2196f3,#ff00eb);
+    background: linear-gradient(to right,#f32170,#ffeb07,#2196f3,#ff00eb);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-}
-
-#mode{
-    color: black;
 }
 
 #menu{
@@ -36,7 +32,6 @@ html{
     border-top: 2px solid gray;
     width: 100%;
     padding: 15px 0px 15px 0px;
-    box-shadow: 3px 0px 15px grey;
     display: none;
 }
 #phone a{
@@ -87,6 +82,10 @@ html{
     cursor: pointer;
     transition: .3s;
     color: white;
+}
+
+#mode{
+    color: black;
 }
 
 #about{
@@ -151,11 +150,9 @@ html{
 }
 .per_dlt{
     margin-top: 30px;
-    font-family: 'Koh Santepheap', cursive;
 }
 .post{
     margin-top: 10px;
-    font-family: 'Koh Santepheap', cursive;
 }
 
 .content{
@@ -169,7 +166,6 @@ html{
     text-align: justify;
     margin: 40px 40px 0px 0px ;
     line-height: 30px;
-    font-family: 'Koh Santepheap', cursive;
     color: rgb(119, 119, 119);
 }
 
@@ -196,7 +192,6 @@ html{
 }
 .dispt{
     font-size: 20px;
-    font-family: 'Koh Santepheap', cursive;
     color: rgb(88, 87, 87);
 }
 
@@ -209,7 +204,6 @@ html{
 .expn_head{
     font-size: 40px;
     margin: 30px 0px 50px 0px;
-    font-family: 'Ephesis', cursive;
     text-align: center;
     color: white;
 }
@@ -358,28 +352,24 @@ input[type=text],input[type=email],textarea {
     margin: 0px 10px 0px 10px;
     cursor: pointer;
     border-radius: 5px;
-    color: black;
+    color: white;
 }
 
 .icon .fa-facebook:hover{
     background-color: rgb(29, 29, 214);
-    color: white;
     transition: .4s;
 
 }
 .icon .fa-linkedin:hover{
     background-color: rgb(11, 11, 100);
-    color: white;
     transition: .4s;
 }
 .icon .fa-twitter:hover{
     background-color: rgb(44, 44, 170);
-    color: white;
     transition: .4s;
 }
 .icon .fa-instagram:hover{
     background-color: rgb(233, 67, 17);
-    color: white;
     transition: .4s;
 }
 
