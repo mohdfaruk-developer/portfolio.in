@@ -349,7 +349,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     }
-    
+
     body #menu{
         width: 768px;
         height: 80px;
@@ -770,7 +770,7 @@
      /* for second section */
      #about{
         width: 425px;
-        height: 1030px;
+        height: 1100px;
         background-color: whitesmoke;
         padding-top: 100px;
         text-align: center;
