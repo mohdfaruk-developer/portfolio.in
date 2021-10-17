@@ -69,38 +69,41 @@ footer{
         text-align: center;   
     }
     .link2{
-      width: 33%;
+      width: 35%;
       float: left;  
+      text-align: center;
   }
   .link3{
-      width: 42%;
+      width: 40%;
       float: left;
       text-align: center;   
   }
   .number {
-      font-size: 25px;
+      font-size: 20px;
   }
   .number .fa{
-      font-size: 30px;
+      font-size: 25px;
       color: rgb(18, 131, 18);
   }
   .email{
-      font-size: 25px;
+      font-size: 20px;
       margin-left: 0px;
   }
   .email .fa{
-      font-size: 30px;
+      font-size: 25px;
   }
   
   .icon .fa{
-      width: 60px;
-      height: 50px;
+      width: 45px;
+      height: 40px;
       background-color: rgb(48, 46, 46);
-      font-size: 50px;
+      font-size: 40px;
       margin: 0px 10px 0px 10px;
       cursor: pointer;
       border-radius: 5px;
       color: white;
+      text-align: center;
+      
   }
   
   .icon .fa-facebook:hover{
