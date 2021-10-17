@@ -41,15 +41,17 @@ function mode1(){
     
     
     if(c%2==0){
-        pro.style.backgroundColor="rgb(59, 58, 58)"
-        for(var i=0; i<28; i++){
-            var pra=document.getElementsByClassName();
-        }
+        document.getElementById("mode").innerText="Light"
+        document.getElementById("mode").style.color="white"
+        pro.style.backgroundColor="rgb(44 43 43)"
+        pro.style.color="white"
         c=c+1;
     }
     else{
+        document.getElementById("mode").innerText="Dark"
+        document.getElementById("mode").style.color="black"
         pro.style.backgroundColor=""
-        pra.style.color=""
+        pro.style.color=""
         c=c+1;
     }
 }
