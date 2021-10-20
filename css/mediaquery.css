@@ -681,10 +681,10 @@
 }
 
 /* for 1125px  */
-@media screen and (max-width:900px){
+@media screen and (max-width:950px){
 
     body #menu{
-        width: 900px;
+        width: 950px;
         height: 80px;
         position: fixed;
         box-shadow: 3px 0px 15px grey;
@@ -737,7 +737,7 @@
 }
 
     #about{
-        width: 900px;
+        width: 950px;
         height:560px;
         background-color: whitesmoke;
         padding-top: 130px;
@@ -835,7 +835,7 @@
     }
     
     #academic{
-        width: 900px;
+        width: 950px;
         text-align: center;
         background: linear-gradient(to right, #f7ff04, #ff05ac);
         padding: 50px 0px 30px 0px;
@@ -861,7 +861,7 @@
     }
     
     #expn{
-        width: 900px;
+        width: 950px;
         padding: 40px 0px 40px 0px;
         background:url("../image/img2.jpg");
         background-size: cover;
@@ -884,7 +884,7 @@
     }
     
     #skill{
-        width: 900px;
+        width: 950px;
         background-image: url("../image/img3.jpg");
         background-size: cover;
         background-attachment: fixed;
@@ -905,7 +905,7 @@
     
     #contact{
         height: 470px;
-        width: 900px;
+        width: 950px;
         padding: 40px 0px 60px 0px;
     }
     #contact h1{
@@ -955,7 +955,7 @@
       }
     
       footer{
-          width: 900px;
+          width: 950px;
           height: 60px;
           background-color: black;
           overflow: hidden;
