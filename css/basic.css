@@ -199,7 +199,7 @@ html{
 #expn{
     width: 100%;
     padding: 40px 0px 40px 0px;
-    background:url("../image/img2.jpg");
+    background: url("../image/img2.jpg") ;
     background-size: cover;
 }
 .expn_head{
@@ -261,7 +261,7 @@ input[type=text],input[type=email],textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     border: hidden;
-    background-color: teal;
+    background-color:#d7f9facf;
     border-radius: 0px 20px 0px 20px;
   }
 ::placeholder{
